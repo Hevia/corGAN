@@ -155,7 +155,7 @@ def main(opts):
     # Plot the total loss curve
     Loss_D_list = Loss_D_list[1:]
     Loss_G_list = Loss_G_list[1:]
-    plotLossCurve(opts, Loss_D_list, Loss_G_list)
+    #plotLossCurve(opts, Loss_D_list, Loss_G_list)
 
 
 if __name__ == '__main__':

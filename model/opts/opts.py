@@ -27,7 +27,7 @@ class TrainOptions():
     def __init__(self):
         parser = argparse.ArgumentParser()
         parser.add_argument('--path', type=str, default='./data/corgi/2')
-        parser.add_argument('--epoch', type=int, default=2) # default was 500
+        parser.add_argument('--epoch', type=int, default=4) # default was 500
         parser.add_argument('--batch_size', type=int, default=2)
         parser.add_argument('--type', type=str, default='style')
         parser.add_argument('--resume', type=str, default='train_result/models/latest.pth')

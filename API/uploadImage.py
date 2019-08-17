@@ -7,7 +7,7 @@ import azure.cosmos.errors as errors
 
 config = {
     'ENDPOINT': 'https://corgan-cosmos.documents.azure.com:443/',
-    'PRIMARYKEY': 'F8ybOZABlaYoWjUeAxPcLRjhwoSwfNi6qY1X087w4FwT5K042eFv4jhihcgxzOO2BmQgmL7Gp9lsH0CNvpCa7A==',
+    'PRIMARYKEY': 'REMOVEDKEY',
     'DATABASE': 'Corgi_Images',
     'CONTAINER': 'Generated_Images'
 }
